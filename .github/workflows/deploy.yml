@@ -24,6 +24,4 @@ jobs:
       - name: Publish package
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-        run:
-          echo "registry=https://registry.npmjs.org/@anibalventura:registry=https://npm.pkg.github.com///npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc &&
-          npm publish --access=public
+        run: npm publish --access=public
