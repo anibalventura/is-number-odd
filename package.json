@@ -1,6 +1,6 @@
 {
   "name": "@anibalventura/is-number-odd",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Esta libreria trabaja con validar si un numero es par o no",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,6 @@
     "number",
     "odd"
   ],
-  "publishConfig": {
-    "@anibalventura:registry": "https://npm.pkg.github.com"
-  },
   "author": "Anibal Ventura",
   "license": "MIT",
   "bugs": {
