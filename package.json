@@ -1,5 +1,5 @@
 {
-  "name": "is-number-odd",
+  "name": "@anibalventura/is-number-odd",
   "version": "1.0.0",
   "description": "Esta libreria trabaja con validar si un numero es par o no",
   "main": "index.js",
